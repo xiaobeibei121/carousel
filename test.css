@@ -1,0 +1,27 @@
+body, div, ul, li {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  text-align: center;
+}
+
+.carousel-div {
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+}
+.carousel-div ul {
+  list-style: none;
+}
+.carousel-div ul li {
+  float: left;
+  width: 100%;
+}
+.carousel-div ul li img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=test.css.map */
