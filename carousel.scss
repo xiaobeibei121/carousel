@@ -12,16 +12,17 @@ body {
   width: 100%;
   max-width: 750px;
   margin: 0 auto;
-}
-.carousel-div ul {
-  list-style: none;
-}
-.carousel-div ul li {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-.carousel-div ul li img {
-  width: 100%;
+  ul{
+    list-style: none;
+    font-size: 0;
+    li {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      img{
+        width: 100%;
+      }
+    }
+  }
 }
